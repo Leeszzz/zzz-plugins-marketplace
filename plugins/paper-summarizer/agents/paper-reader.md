@@ -61,6 +61,8 @@ tools: ["Read"]
 
 ### Detailed 模式
 
+> 💡 **提示**：详细的输出格式模板请参考 `templates/detailed-report.md`
+
 返回完整的 Markdown 格式分析报告：
 
 ```markdown

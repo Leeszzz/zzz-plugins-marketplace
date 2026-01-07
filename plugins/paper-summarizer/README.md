@@ -20,7 +20,7 @@
 
 ## 安装
 
-插件已安装在：`~/.claude/plugins/paper-summarizer/`
+插件已安装在：`C:\Users\syszzz\.claude\plugins\marketplaces\claude-plugins-zzz\plugins\paper-summarizer\`
 
 确保 Claude Code 加载了此插件目录。
 
@@ -38,8 +38,8 @@
 |------|------|--------|
 | `--mode brief` | 表格汇总模式 | ✅ 默认 |
 | `--mode detailed` | 详细分析模式 | - |
-| `--output <file>` | Brief 模式输出文件 | `./paper-summary.md` |
-| `--outdir <dir>` | Detailed 模式输出目录 | 当前目录 |
+| `--output <file>` | Brief 模式输出文件 | 文献所在目录，默认 `paper-summary.md` |
+| `--outdir <dir>` | Detailed 模式输出目录 | 文献所在目录 |
 | `--enrich` | 启用 Semantic Scholar 在线补充 | 禁用 |
 
 ### 使用示例
@@ -62,6 +62,8 @@
 ```
 
 ## 输出格式
+
+> 💡 **提示**：如需查看详细的输出模板格式，请参考 `templates/brief-table.md` 和 `templates/detailed-report.md` 文件。
 
 ### Brief 模式（表格汇总）
 
@@ -187,7 +189,3 @@ paper-summarizer/
   - Brief 表格模式
   - Detailed 分析模式
   - Semantic Scholar 可选集成
-
-## 许可
-
-MIT License
