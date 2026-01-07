@@ -1,8 +1,8 @@
 {
-  "name": "zzz",
+  "name": "zzz-plugins-marketplace",
   "description": "zzz本地插件市场",
   "owner": {
-    "name": "zzz",
+    "name": "zzz-plugins-marketplace",
     "email": ""
   },
   "version": "1.0.0",

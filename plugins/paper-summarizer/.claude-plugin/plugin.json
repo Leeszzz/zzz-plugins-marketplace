@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "批量阅读文献并生成结构化总结（表格汇总或详细分析）",
   "author": {
-    "name": "zzz",
+    "name": "zzz-plugins-marketplace",
     "email": ""
   },
   "keywords": ["papers", "literature", "summary", "academic", "research"],
