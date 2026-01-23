@@ -18,6 +18,17 @@
         "email": ""
       },
       "category": "productivity"
+    },
+    {
+      "name": "research-paper",
+      "source": "./plugins/research-paper",
+      "description": "学术论文检索工具。使用 Semantic Scholar MCP 检索论文，并将结果记录到指定 markdown 文件。",
+      "version": "0.1.0",
+      "author": {
+        "name": "zzz-plugins-marketplace",
+        "email": ""
+      },
+      "category": "productivity"
     }
   ]
 }
