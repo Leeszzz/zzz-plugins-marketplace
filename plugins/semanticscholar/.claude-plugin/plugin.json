@@ -1,0 +1,8 @@
+{
+  "name": "semanticscholar",
+  "description": "Semantic Scholar MCP 服务器集成，提供学术论文检索、引用分析、作者查询等功能。",
+  "author": {
+    "name": "Leeszzz",
+    "email": ""
+  }
+}

@@ -3,7 +3,7 @@
   "name": "zzz-plugins-marketplace",
   "description": "zzz本地插件市场",
   "owner": {
-    "name": "zzz-plugins-marketplace",
+    "name": "Leeszzz",
     "email": ""
   },
   "version": "1.0.0",
@@ -14,7 +14,7 @@
       "description": "批量阅读文献并生成结构化总结（表格汇总或详细分析）",
       "version": "0.1.0",
       "author": {
-        "name": "zzz-plugins-marketplace",
+        "name": "Leeszzz",
         "email": ""
       },
       "category": "productivity"
@@ -25,10 +25,16 @@
       "description": "学术论文检索工具。使用 Semantic Scholar MCP 检索论文，并将结果记录到指定 markdown 文件。",
       "version": "0.1.0",
       "author": {
-        "name": "zzz-plugins-marketplace",
+        "name": "Leeszzz",
         "email": ""
       },
       "category": "productivity"
+    },
+    {
+      "name": "semanticscholar",
+      "source": "./plugins/semanticscholar",
+      "description": "Semantic Scholar MCP 服务器集成，提供学术论文检索、引用分析、作者查询等功能。",
+      "category": "development"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "semanticscholar": {
+    "command": "cmd",
+    "args": [
+      "/c",
+      "npx",
+      "-y",
+      "mcp-remote",
+      "https://server.smithery.ai/@hamid-vakilzadeh/mcpsemanticscholar"
+    ]
+  }
+}
