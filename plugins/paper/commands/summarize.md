@@ -4,7 +4,7 @@ argument-hint: --mode brief|detailed [--output file.md] [--outdir dir/] [--enric
 allowed-tools: ["Read", "Write", "Glob", "Task", "TodoWrite", "mcp__semanticscholar__*"]
 ---
 
-# /papers:summarize 命令
+# /paper:summarize 命令
 
 批量处理学术文献，生成结构化总结。支持 PDF 和 Markdown/文本文件。
 
@@ -57,7 +57,7 @@ $ARGUMENTS
 
 ```
 Task 调用示例:
-- subagent_type: paper-summarizer:paper-reader
+- subagent_type: paper:paper-reader
 - prompt: "处理文献 [file_path]，模式: [mode]"
 ```
 
@@ -150,16 +150,16 @@ Task 调用示例:
 
 ```bash
 # 简短模式 - 处理目录下所有 PDF
-/papers:summarize --mode brief ./papers/
+/paper:summarize --mode brief ./papers/
 
 # 详细模式 - 每篇单独文件
-/papers:summarize --mode detailed ./papers/*.pdf
+/paper:summarize --mode detailed ./papers/*.pdf
 
 # 指定输出并启用在线补充
-/papers:summarize --mode brief --output ./reading-notes.md --enrich ./papers/
+/paper:summarize --mode brief --output ./reading-notes.md --enrich ./papers/
 
 # 处理单个文件
-/papers:summarize --mode detailed ./attention-is-all-you-need.pdf
+/paper:summarize --mode detailed ./attention-is-all-you-need.pdf
 ```
 
 ## 注意事项

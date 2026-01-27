@@ -9,21 +9,10 @@
   "version": "1.0.0",
   "plugins": [
     {
-      "name": "paper-summarizer",
-      "source": "./plugins/paper-summarizer",
-      "description": "批量阅读文献并生成结构化总结（表格汇总或详细分析）",
-      "version": "0.1.0",
-      "author": {
-        "name": "Leeszzz",
-        "email": ""
-      },
-      "category": "productivity"
-    },
-    {
-      "name": "research-paper",
-      "source": "./plugins/research-paper",
-      "description": "学术论文检索工具。使用 Semantic Scholar MCP 检索论文，并将结果记录到指定 markdown 文件。",
-      "version": "0.1.0",
+      "name": "paper",
+      "source": "./plugins/paper",
+      "description": "学术论文工具套件：论文检索（Semantic Scholar）与批量文献总结",
+      "version": "0.2.0",
       "author": {
         "name": "Leeszzz",
         "email": ""

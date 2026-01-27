@@ -1,0 +1,11 @@
+{
+  "name": "paper",
+  "version": "0.2.0",
+  "description": "学术论文工具套件：论文检索（Semantic Scholar）与批量文献总结",
+  "author": {
+    "name": "Leeszzz",
+    "email": ""
+  },
+  "keywords": ["papers", "literature", "search", "summary", "academic", "research", "semantic-scholar"],
+  "license": "MIT"
+}

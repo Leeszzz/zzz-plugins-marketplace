@@ -1,17 +1,10 @@
 ---
-name: research-paper
 description: 学术论文检索工具。使用 Semantic Scholar MCP 检索论文，并将结果记录到指定 markdown 文件。严格按用户关键词检索，自动过滤不相关结果。
+argument-hint: <keywords> [year-start]-[year-end]
 allowed-tools: ["Read", "Write", "Edit", "mcp__semanticscholar__*"]
-arguments:
-  - name: keywords
-    description: 检索关键词（如：微电网优化、氢燃料电池）
-    required: true
-  - name: years
-    description: 年份范围（如：2020-2025），默认近5年
-    required: false
 ---
 
-# Research Paper 论文检索
+# /paper:search 论文检索
 
 ## 功能说明
 
@@ -35,10 +28,10 @@ arguments:
 
 ```
 # 示例
-用户: "/research-paper 微电网能量管理"
+用户: "/paper:search 微电网能量管理"
 query = "microgrid energy management optimization"
 
-用户: "/research-paper 轨道交通牵引供电 2020-2024"
+用户: "/paper:search 轨道交通牵引供电 2020-2024"
 query = "railway traction power supply system"
 yearStart = 2020, yearEnd = 2024
 ```
